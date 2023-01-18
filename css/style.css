@@ -1,0 +1,65 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+body{
+   font-family: 'Open Sans', sans-serif;
+}
+.container{
+   margin:auto 20px;
+}
+.header-logo{
+   font-size: 74px;
+   font-weight: 800;
+   margin-top: 20px;
+   text-align: center;
+}
+.header-title{
+   font-size: 74px;
+   Line-height: 89%;
+   font-weight: 300;
+   width: 878.71px;
+   margin-bottom: 40px;
+   margin-top: 150px;
+}
+.header-inner{
+   display: flex;
+}
+.header-btn a{
+   font-size: 39.78px;
+   font-weight: 800;
+   padding: 10px 15px;
+   background-color: #fff;
+   text-decoration: none;
+   color: #000;
+   border: 6px #000 solid;
+   border-radius: 10px;
+}
+.apple1{
+   line-height: 476.3px;
+   width: 436.25px;
+   position: absolute;
+   z-index: 2;
+   right: 92px;
+   bottom: 135px;
+}
+.apple2 {
+   line-height: 507.06px;
+   width: 268.51px;
+   position: absolute;
+   z-index: 1;
+   right: 20px;
+}
